@@ -1,5 +1,5 @@
-//Python Programming Projects 
-//COSC 1315 Intro To Programming
+#Python Programming Projects 
+#COSC 1315 Intro To Programming
 ------------------------------------------------------------------------------------------------------------------------------------
 
 /// Write a program that determines the loan payment amount, given the loan amount, interest rate, and the number of payments. 
@@ -80,7 +80,6 @@ def calc_payments(loan_amount, num_payments, interest_rate):
     return loan_amount / num_payments * (1.0 + interest_rate)
 
 
-
 def main():
     while True:
         loan_amount = input_amount()
@@ -102,7 +101,6 @@ def main():
         while True:
             if choice == 'y' or choice == 'Y': break
             elif choice =='n' or choice == 'N': return
-
 
 if __name__ == "__main__": main()
 ------------------------------------------------------------------------------------------------------------------------------------
